@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class clickable_evidence : MonoBehaviour
+public class close_evidence : MonoBehaviour
 {
     public GameObject screen;
     public GameObject[] evidence;
@@ -26,10 +26,10 @@ public class clickable_evidence : MonoBehaviour
             if (hit.collider != null)
             {
                 Debug.Log(hit.collider.gameObject.name);
-                screen.SetActive(true);
+                screen.SetActive(false);
                 for (int i = 0; i < evidence.Length; i++)
                 {
-                    evidence[i].SetActive(false);
+                    evidence[i].SetActive(true);
                 }
                 page.Play();
             }
