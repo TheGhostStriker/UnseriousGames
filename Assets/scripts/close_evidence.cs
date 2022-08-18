@@ -5,7 +5,7 @@ using UnityEngine;
 public class close_evidence : MonoBehaviour
 {
     public GameObject screen;
-    public GameObject[] evidence;
+    public GameObject evidence;
 
     public AudioSource page;
     // Start is called before the first frame update
@@ -27,10 +27,7 @@ public class close_evidence : MonoBehaviour
             {
                 Debug.Log(hit.collider.gameObject.name);
                 screen.SetActive(false);
-                for (int i = 0; i < evidence.Length; i++)
-                {
-                    evidence[i].SetActive(true);
-                }
+                evidence.SetActive(true);
                 page.Play();
             }
         }
