@@ -1684,6 +1684,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 334fd1af20abb5c408216b806ff1aae8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseButtonHIDE: {fileID: 2024976462}
+  nextSceneButtonHIDE: {fileID: 176124490}
   pauseMenu: {fileID: 1844547820}
 --- !u!114 &2024976465
 MonoBehaviour:
