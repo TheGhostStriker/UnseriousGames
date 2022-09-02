@@ -21,12 +21,14 @@ public class ClickToPlayAnimation : MonoBehaviour
         {
             
             testAnimation.SetBool("playAnim", true);
+            Debug.Log("Animation is playing");
         }
 
         if(Input.GetMouseButtonDown(1))
         {
             
             testAnimation.SetBool("playAnim", false);
+            Debug.Log("Animation is stopped");
         }
     }
 
