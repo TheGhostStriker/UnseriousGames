@@ -8,14 +8,18 @@ public class ClickEvidenceInScene : MonoBehaviour
     public GameObject sceneObject;
     public GameObject canvasObject;
 
-    public void Update()
+    public AudioSource evidenceAudio;
+
+    public void OnMouseOver()
     {
         if (Input.GetMouseButtonDown(0))
         {
             clickableObject.SetActive(false);
             sceneObject.SetActive(false);
             canvasObject.SetActive(true);
+            evidenceAudio.Play();
         }
+
     }
     
 }
