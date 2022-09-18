@@ -3,24 +3,42 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class ClickToAddText : MonoBehaviour
 {
 
     public float delay = 0.1f;
     public string fullText;
     private string currentText = "";
+
+    public GameObject textButton;
+    public GameObject otherTextButton;
+
+    public AudioSource typeWriterAudio;
     
 
     // Start is called before the first frame update
     void Start()
     {
-        
-        
+
+        typeWriterAudio.time = 0.0f;
+    }
+
+    public void Update()
+    {
+        if(typeWriterAudio.time > 21.0f)
+        {
+            typeWriterAudio.Stop();
+        }
     }
 
     public void OnButtonPressed()
     {
         StartCoroutine(ShowText());
+        textButton.SetActive(false);
+        otherTextButton.SetActive(false);
+        typeWriterAudio.Play();
+        
     }
 
     IEnumerator ShowText()
@@ -29,9 +47,16 @@ public class ClickToAddText : MonoBehaviour
         {
             currentText = fullText.Substring(0, i);
             this.GetComponent<Text>().text = currentText;
+           
             yield return new WaitForSeconds(delay);
+            
         }
+        
+        
+        
     }
+
+    
 
     
 }
