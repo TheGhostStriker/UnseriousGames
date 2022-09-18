@@ -8,6 +8,8 @@ public class ClickEvidenceInScene : MonoBehaviour
     public GameObject sceneObject;
     public GameObject canvasObject;
 
+    
+
     public AudioSource evidenceAudio;
 
     public void OnMouseOver()
@@ -18,6 +20,8 @@ public class ClickEvidenceInScene : MonoBehaviour
             sceneObject.SetActive(false);
             canvasObject.SetActive(true);
             evidenceAudio.Play();
+            
+
         }
 
     }

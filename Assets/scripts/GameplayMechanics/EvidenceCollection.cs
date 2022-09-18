@@ -10,22 +10,22 @@ public class EvidenceCollection : MonoBehaviour
 
     public bool EvidencePiece1;
     
-    /*public bool EvidencePiece2;
-    public bool EvidencePiece3;
+    public bool EvidencePiece2;
+    /*public bool EvidencePiece3;
     public bool EvidencePiece4;*/
 
 
     public GameObject PlaceEvidenceHere1;
     
-    /*public GameObject PlaceEvidenceHere2;
-    public GameObject PlaceEvidenceHere3;
+    public GameObject PlaceEvidenceHere2;
+    /*public GameObject PlaceEvidenceHere3;
     public GameObject PlaceEvidenceHere4;*/
 
 
     public GameObject TellTruthAboutIt1;
     
-    /*public GameObject TellTruthAboutIt2;
-    public GameObject TellTruthAboutIt3;
+    public GameObject TellTruthAboutIt2;
+    /*public GameObject TellTruthAboutIt3;
     public GameObject TellTruthAboutIt4;*/
 
 
@@ -37,14 +37,14 @@ public class EvidenceCollection : MonoBehaviour
 
         EvidencePiece1 = false;
         
-        /*EvidencePiece2 = false;
-        EvidencePiece3 = false;
+        EvidencePiece2 = false;
+        /*EvidencePiece3 = false;
         EvidencePiece4 = false;*/
 
         TellTruthAboutIt1.SetActive(false);
         
-        /*TellTruthAboutIt2.SetActive(false);
-        TellTruthAboutIt3.SetActive(false);
+        TellTruthAboutIt2.SetActive(false);
+        /*TellTruthAboutIt3.SetActive(false);
         TellTruthAboutIt4.SetActive(false);*/
 
 
@@ -66,7 +66,7 @@ public class EvidenceCollection : MonoBehaviour
         }
 
 
-        /*if (Input.GetKey(KeyCode.Mouse0) && !EvidencePiece2)
+        if (Input.GetKey(KeyCode.Mouse0) && !EvidencePiece2)
         {
 
             PlaceEvidenceHere2.SetActive(false);
@@ -77,7 +77,7 @@ public class EvidenceCollection : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.Mouse0) && !EvidencePiece3)
+        /*if (Input.GetKey(KeyCode.Mouse0) && !EvidencePiece3)
         {
 
             PlaceEvidenceHere3.SetActive(false);
