@@ -11,12 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CreditsMenu.unity
     guid: 2d223f9449c4135479dc51c4b1ccdd8b
-  - enabled: 0
-    path: Assets/Scenes/Ben.unity
-    guid: 685815e6a01414342a6d1352028d8ba5
-  - enabled: 0
-    path: Assets/Scenes/Clynton.unity
-    guid: 00149d9d9e4f30c4785b6913fbc3b138
   - enabled: 1
     path: Assets/Scenes/MainGame.unity
     guid: 4ca9dcae31d5c8f49be5720eb3bfe410

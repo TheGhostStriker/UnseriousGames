@@ -12,6 +12,7 @@ public class EvidenceCounter : MonoBehaviour
     public int EvidenceAmountInScene;
 
     public bool tellTruthButton = false;
+    public bool IsTruthButtonActive = false;
 
     //public Button truthButton;
 
@@ -22,23 +23,26 @@ public class EvidenceCounter : MonoBehaviour
 
     public void Update()
     {
-        if(tellTruthButton == false)
+        if(!tellTruthButton && !IsTruthButtonActive)
         {
-            if(totalEvidenceCollected >= EvidenceAmountInScene)
+            if (totalEvidenceCollected >= EvidenceAmountInScene)
             {
-                tellTruthButton = true;
+                TruthButton.SetActive(true);
+
+                IsTruthButtonActive = true;
+
+                Debug.Log("I have been collected??????");
             }
         }
 
-        if (tellTruthButton)
-        {
-            TruthButton.SetActive(true);
-        }
+        
 
     }
 
     public void EvidenceCollected()
     {
+        
+
         totalEvidenceCollected++;
     }
 }

@@ -2599,7 +2599,7 @@ GameObject:
   - component: {fileID: 784656062}
   - component: {fileID: 784656061}
   m_Layer: 0
-  m_Name: EvidenceCounter
+  m_Name: EvidenceCounterForScene1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2621,6 +2621,7 @@ MonoBehaviour:
   totalEvidenceCollected: 0
   EvidenceAmountInScene: 3
   tellTruthButton: 0
+  IsTruthButtonActive: 0
 --- !u!4 &784656062
 Transform:
   m_ObjectHideFlags: 0
