@@ -8,6 +8,7 @@ public class PublishPaperScript : MonoBehaviour
 
     private bool GoNext;
     public GameObject PressToGoEndScene;
+    
 
 
 

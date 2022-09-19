@@ -27,7 +27,7 @@ public class ClickToAddText : MonoBehaviour
 
     public void Update()
     {
-        if(typeWriterAudio.time > 21.0f)
+        if(typeWriterAudio.time > 40.0f)
         {
             typeWriterAudio.Stop();
         }
