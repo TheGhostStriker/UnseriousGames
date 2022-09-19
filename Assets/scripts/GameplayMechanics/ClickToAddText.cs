@@ -10,10 +10,14 @@ public class ClickToAddText : MonoBehaviour
     public float delay = 0.1f;
     public string fullText;
     private string currentText = "";
+    
+    
 
     public GameObject textButton;
     public GameObject otherTextButton;
     public GameObject thirdTextButton;
+
+    public EvidenceCounter boolSwitch;
 
     public AudioSource typeWriterAudio;
     
@@ -36,10 +40,18 @@ public class ClickToAddText : MonoBehaviour
     public void OnButtonPressed()
     {
         StartCoroutine(ShowText());
+
+        boolSwitch.GetComponent<EvidenceCounter>();
+        boolSwitch.tellTruthButton = false;
         textButton.SetActive(false);
         otherTextButton.SetActive(false);
         thirdTextButton.SetActive(false);
+
+        
+        
         typeWriterAudio.Play();
+
+       
         
     }
 
@@ -49,7 +61,8 @@ public class ClickToAddText : MonoBehaviour
         {
             currentText = fullText.Substring(0, i);
             this.GetComponent<Text>().text = currentText;
-           
+            
+
             yield return new WaitForSeconds(delay);
             
         }

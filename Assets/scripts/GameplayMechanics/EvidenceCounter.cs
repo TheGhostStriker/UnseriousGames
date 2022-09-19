@@ -15,12 +15,12 @@ public class EvidenceCounter : MonoBehaviour
 
     //public Button truthButton;
 
-    private void Start()
+    public void Start()
     {
         TruthButton.SetActive(false);
     }
 
-    private void Update()
+    public void Update()
     {
         if(tellTruthButton == false)
         {

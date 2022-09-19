@@ -29,7 +29,7 @@ public class EvidenceCollection : MonoBehaviour
     }
 
 
-    private void OnMouseOver()
+    public void OnMouseOver()
     {
 
         if (Input.GetKey(KeyCode.Mouse0) && !EvidencePiece1)
