@@ -13,6 +13,7 @@ public class ClickToAddText : MonoBehaviour
 
     public GameObject textButton;
     public GameObject otherTextButton;
+    public GameObject thirdTextButton;
 
     public AudioSource typeWriterAudio;
     
@@ -37,6 +38,7 @@ public class ClickToAddText : MonoBehaviour
         StartCoroutine(ShowText());
         textButton.SetActive(false);
         otherTextButton.SetActive(false);
+        thirdTextButton.SetActive(false);
         typeWriterAudio.Play();
         
     }
