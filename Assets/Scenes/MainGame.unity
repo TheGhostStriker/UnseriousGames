@@ -1649,7 +1649,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.1
-  fullText: Test.?
+  fullText: "Ripper Gone Feral Victim Jean Royal, mother of two has been recently
+    found, brutally killed on Princess Road in Manchester. She was found with many
+    blunt impacts to the back of her head that is just barely connected to the body.
+    While said body is also riddled with stabbed wounds. At first the police didn\u2019t
+    know who could be the killer. However, evidence found by the mutilated corpse
+    points towards The Yorkshire Ripper. The Ripper has done many killings before
+    however none as brutal as this! People are starting to believe that the killer
+    is becoming more feral and inhuman with each new kill. All workers of the night
+    should be afraid as this sadistic killer could come for you next! ?Test.?"
   textButton: {fileID: 548974909}
   otherTextButton: {fileID: 1719328463}
   thirdTextButton: {fileID: 1426632596}
@@ -3978,7 +3986,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.1
-  fullText: Test.?
+  fullText: "Ripper Strikes in Manchester Jean Royal, mother of two has been found
+    dead on Princess Road in Manchester. At first the police investigation team believed
+    that this death was done by another killer. However, once they searched the dead
+    body the police found a 5-pound note believed to be from The Yorkshire Ripper,
+    in the victim\u2019s purse. This led the team to find out that Jean Royal was
+    doing prostitution work at night. The fact of Jean Royal was a prostitute and
+    the 5-pound note leading back to Bradford city in West Yorkshire means that the
+    most likely suspect of this brutal murder is the Yorkshire Ripper. A warning
+    to all workers of the night should be careful of this sudden appearance. ?"
   textButton: {fileID: 1719328463}
   otherTextButton: {fileID: 1426632596}
   thirdTextButton: {fileID: 548974909}
