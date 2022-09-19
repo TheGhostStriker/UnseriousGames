@@ -1516,7 +1516,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 497882724}
+      - m_Target: {fileID: 653276124}
         m_TargetAssemblyTypeName: ClickToAddText, Assembly-CSharp
         m_MethodName: OnButtonPressed
         m_Mode: 1
