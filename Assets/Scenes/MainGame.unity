@@ -4769,7 +4769,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Typewriter Scenew
+  m_Text: Typewriter Scene
 --- !u!222 &1496081782
 CanvasRenderer:
   m_ObjectHideFlags: 0
