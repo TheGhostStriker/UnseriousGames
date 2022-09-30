@@ -14,4 +14,6 @@ public class ObjectHighlight : MonoBehaviour
     {
         GetComponent<Renderer>().material.color = startcolor;
     }
+
+    
 }

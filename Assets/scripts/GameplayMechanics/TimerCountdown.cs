@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class TimerCountdown : MonoBehaviour
 {
 
-    public float timeRemaining = 10;
+    public float timeRemaining = 6000;
     public bool timerIsRunning = false;
     public Text timeText;
 
@@ -39,6 +39,7 @@ public class TimerCountdown : MonoBehaviour
                 Debug.Log("Time has run out");
                 timeRemaining = 0;
                 timerIsRunning = false;
+                SceneManager.LoadScene("YOU GOT FIRED BISH");
             }
         }
     }

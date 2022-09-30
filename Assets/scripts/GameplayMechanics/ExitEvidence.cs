@@ -7,11 +7,14 @@ public class ExitEvidence : MonoBehaviour
     public GameObject canvasObject;
     public GameObject sceneObject;
     public GameObject evidenceObject;
+    
 
     public void whenButtonClicked()
     {
         canvasObject.SetActive(true);
         sceneObject.SetActive(false);
-        evidenceObject.SetActive(true);
+        evidenceObject.SetActive(false);
+        
+
     }
 }
