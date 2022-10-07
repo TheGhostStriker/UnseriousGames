@@ -7,6 +7,8 @@ public class EvidenceCounter : MonoBehaviour
 {
 
     public GameObject TruthButton;
+    public GameObject SensationaliseButton;
+    public GameObject LieButton;
 
     public int totalEvidenceCollected = 0;
     public int EvidenceAmountInScene;
@@ -19,6 +21,7 @@ public class EvidenceCounter : MonoBehaviour
     public void Start()
     {
         TruthButton.SetActive(false);
+        SensationaliseButton.SetActive(false);
     }
 
     public void Update()
@@ -28,6 +31,8 @@ public class EvidenceCounter : MonoBehaviour
             if (totalEvidenceCollected >= EvidenceAmountInScene)
             {
                 TruthButton.SetActive(true);
+                SensationaliseButton.SetActive(true);
+                LieButton.SetActive(false);
 
                 IsTruthButtonActive = true;
 
