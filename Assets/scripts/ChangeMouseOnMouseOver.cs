@@ -34,7 +34,7 @@ public class ChangeMouseOnMouseOver : MonoBehaviour
     public void OnMouseOver()
     {
         MouseOver = true;
-        Debug.Log("Im a spaz");
+        //Debug.Log("Im a spaz");
     }
 
     public void OnMouseExit()
