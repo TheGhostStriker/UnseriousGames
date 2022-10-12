@@ -472,7 +472,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 218.258, y: 6.829}
+  m_AnchoredPosition: {x: 11, y: 6.829}
   m_SizeDelta: {x: 1041.812, y: 769.669}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1435387411
@@ -502,17 +502,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 45
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Project Lead\t\t\tTaylor Fontaine\n\nProgrammers\t\t\tClynton Smith\n\t\t\t\t\t\t\t\t\t\tAlexei
-    Shortis\n\t\t\t\t\t\t\t\t\t\tBen Davis\n\t\t\t\t\t\t\t\t\t\tConnor Bartolozzi\n\nLevel
-    Art\t\t\t\t\tThuy Nguyen \n\nAsset Art\t\t\t\t\tCooper Angelov\n\nCharacter Art\t\tAlexander
-    Christensen\n\nLevel Design\t\t\t\tClynton Smith\n\t\t\t\t\t\t\t\t\t\tTaylor
-    Fontaine"
+    Shortis\n\t\t\t\t\t\t\t\t\t\tBen Davis\n\t\t\t\t\t\t\t\t\t\tConnor Bartolozzi\n                                 
+    \t\tTaylor Fontaine\n\nLevel Art\t\t\t\t\tThuy Nguyen \n\nAsset Art\t\t\t\t\tCooper
+    Angelov\n\n             Audio\t\t          Alexander Christensen\n\nLevel Design\t\t\t\tClynton
+    Smith\n\t\t\t\t\t\t\t\t\t\tTaylor Fontaine"
 --- !u!222 &1435387412
 CanvasRenderer:
   m_ObjectHideFlags: 0
