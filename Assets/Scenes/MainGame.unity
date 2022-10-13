@@ -193,7 +193,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Return Home
+  m_Text: 'Return Home
+
+'
 --- !u!222 &1728550
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -219,11 +221,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6183147196164091742, guid: e14027c948ae748bcb59d0880fd815d4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1010938
+      value: 1.5214914
       objectReference: {fileID: 0}
     - target: {fileID: 6183147196164091742, guid: e14027c948ae748bcb59d0880fd815d4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.9375
+      value: 1.2954376
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183147196164091742, guid: e14027c948ae748bcb59d0880fd815d4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3818
       objectReference: {fileID: 0}
     - target: {fileID: 6183147196164091742, guid: e14027c948ae748bcb59d0880fd815d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -287,7 +293,6 @@ GameObject:
   - component: {fileID: 42457722}
   - component: {fileID: 42457721}
   - component: {fileID: 42457720}
-  - component: {fileID: 42457726}
   m_Layer: 0
   m_Name: BW Bracelet
   m_TagString: Untagged
@@ -303,8 +308,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 42457718}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.1193792, y: 1.8712599, z: 315}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 2.98, y: -2.07, z: 315}
+  m_LocalScale: {x: 0.19674449, y: 0.19674449, z: 0.19674449}
   m_Children: []
   m_Father: {fileID: 772029428}
   m_RootOrder: 2
@@ -435,20 +440,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &42457726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42457718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
 --- !u!1 &54454579
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,7 +802,6 @@ GameObject:
   - component: {fileID: 127200787}
   - component: {fileID: 127200786}
   - component: {fileID: 127200785}
-  - component: {fileID: 127200792}
   m_Layer: 0
   m_Name: BW Rock
   m_TagString: Untagged
@@ -826,13 +816,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127200783}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -543.426, y: -259.22, z: 315}
+  m_LocalRotation: {x: -0, y: -0, z: 0.08862118, w: 0.99606544}
+  m_LocalPosition: {x: -549.3, y: -262.87, z: 314.9999}
   m_LocalScale: {x: 0.34952667, y: 0.34952667, z: 0.34952667}
   m_Children: []
   m_Father: {fileID: 1620170006}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 10.169}
 --- !u!114 &127200785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1005,20 +995,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &127200792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127200783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
 --- !u!1 &140585334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,7 +1010,6 @@ GameObject:
   - component: {fileID: 140585339}
   - component: {fileID: 140585338}
   - component: {fileID: 140585337}
-  - component: {fileID: 140585336}
   m_Layer: 5
   m_Name: ThirdScene
   m_TagString: Untagged
@@ -1061,20 +1036,6 @@ RectTransform:
   m_AnchoredPosition: {x: 126, y: 141}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &140585336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 140585334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 7b3744ff6d63abe4fa8284878d755f9b, type: 3}
-  MouseOver: 0
 --- !u!114 &140585337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1104,7 +1065,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 140585336}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: ChangeMouseOnMouseOver, Assembly-CSharp
           m_MethodName: OnMouseOver
           m_Mode: 1
@@ -1132,7 +1093,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 140585336}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: ChangeMouseOnMouseOver, Assembly-CSharp
           m_MethodName: OnMouseExit
           m_Mode: 1
@@ -1227,7 +1188,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 140585336}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeMouseOnMouseOver, Assembly-CSharp
         m_MethodName: OnMouseExit
         m_Mode: 1
@@ -1372,7 +1333,6 @@ GameObject:
   - component: {fileID: 160428172}
   - component: {fileID: 160428171}
   - component: {fileID: 160428170}
-  - component: {fileID: 160428177}
   m_Layer: 0
   m_Name: BW Sock V2
   m_TagString: Untagged
@@ -1387,13 +1347,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160428168}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -547.63, y: -260.08, z: 315}
+  m_LocalRotation: {x: -0, y: -0, z: 0.66560715, w: 0.7463023}
+  m_LocalPosition: {x: -536.67, y: -256.35, z: 314.9999}
   m_LocalScale: {x: 0.23027, y: 0.23027, z: 0.23027}
   m_Children: []
   m_Father: {fileID: 1620170006}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 83.458}
 --- !u!114 &160428170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1546,20 +1506,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &160428177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 160428168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
 --- !u!1 &201626675
 GameObject:
   m_ObjectHideFlags: 0
@@ -2543,15 +2489,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.1
-  fullText: "New Killer at Large Jean Royal, mother of two has been recently found,
-    brutally murdered on Princess Road in Manchester. At first it was believed that
-    The Yorkshire Ripper was the cause of her death, however since no evidence is
-    pointing towards them and the Ripper isn\u2019t known for brutal killings like
-    this one. Police investigators have deduced that instead a new unrelated killer
-    has caused this brutal scene to happen. The police have dubbed this new killer
-    \u201CThe Manchester Maniac\u201D. Police have also stated the civilians should
-    be careful while out at night since they never know who or when the Manchester
-    Maniac will strike! ?"
+  fullText: Police discovered body of Jean Jordan, a prostitute that was stabbed
+    and dumped in the wastelands near Princess Road, Chorlton. It is clear that he
+    was trying to mimic Jack the ripper by targeting prostitutes and from the way
+    he mutilated the corpse, it is clear he must have been one deranged psycho.
   textButton: {fileID: 1426632596}
   otherTextButton: {fileID: 1719328463}
   thirdTextButton: {fileID: 548974909}
@@ -2866,7 +2807,6 @@ GameObject:
   - component: {fileID: 548974913}
   - component: {fileID: 548974912}
   - component: {fileID: 548974911}
-  - component: {fileID: 548974915}
   m_Layer: 0
   m_Name: Sensationalise
   m_TagString: Untagged
@@ -2987,6 +2927,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 638376649}
+        m_TargetAssemblyTypeName: IncreaseNewsTracker, Assembly-CSharp
+        m_MethodName: OnSensationTold
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &548974913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3025,20 +2977,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 548974909}
   m_CullTransparentMesh: 1
---- !u!114 &548974915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 548974909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
 --- !u!1 &581459670
 GameObject:
   m_ObjectHideFlags: 0
@@ -3052,7 +2990,6 @@ GameObject:
   - component: {fileID: 581459673}
   - component: {fileID: 581459672}
   - component: {fileID: 581459671}
-  - component: {fileID: 581459676}
   m_Layer: 0
   m_Name: Truth Button
   m_TagString: Untagged
@@ -3141,6 +3078,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 638376649}
+        m_TargetAssemblyTypeName: IncreaseNewsTracker, Assembly-CSharp
+        m_MethodName: OnTruthTold
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &581459673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3199,20 +3148,6 @@ RectTransform:
   m_AnchoredPosition: {x: -574, y: -238}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &581459676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 581459670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
 --- !u!1 &597381648
 GameObject:
   m_ObjectHideFlags: 0
@@ -3264,15 +3199,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.1
-  fullText: "Ripper Strikes in Manchester Jean Royal, mother of two has been found
-    dead on Princess Road in Manchester. At first the police investigation team believed
-    that this death was done by another killer. However, once they searched the dead
-    body the police found a 5-pound note believed to be from The Yorkshire Ripper,
-    in the victim\u2019s purse. This led the team to find out that Jean Royal was
-    doing prostitution work at night. The fact of Jean Royal was a prostitute and
-    the 5-pound note leading back to Bradford city in West Yorkshire means that the
-    most likely suspect of this brutal murder is the Yorkshire Ripper. A warning
-    to all workers of the night should be careful of this sudden appearance. ?"
+  fullText: "The first victim of Peter Sutcliff remains anonymous because she didn\u2019t
+    want anything to do with the incident due to previous drama. This victim was
+    assaulted by Peter Sutcliff who used a stone within a sock as a weapon. The victims
+    husband at the time was in prison for assault, which is likely the reason why
+    she did not want to press charges."
   textButton: {fileID: 610020617}
   otherTextButton: {fileID: 994727133}
   thirdTextButton: {fileID: 869134648}
@@ -3412,7 +3343,6 @@ GameObject:
   - component: {fileID: 610020621}
   - component: {fileID: 610020620}
   - component: {fileID: 610020619}
-  - component: {fileID: 610020623}
   m_Layer: 0
   m_Name: Truth Button
   m_TagString: Untagged
@@ -3521,6 +3451,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 638376649}
+        m_TargetAssemblyTypeName: IncreaseNewsTracker, Assembly-CSharp
+        m_MethodName: OnTruthTold
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &610020621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3559,20 +3501,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610020617}
   m_CullTransparentMesh: 1
---- !u!114 &610020623
+--- !u!1 &638376645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 638376647}
+  - component: {fileID: 638376646}
+  - component: {fileID: 638376648}
+  - component: {fileID: 638376649}
+  m_Layer: 0
+  m_Name: NewsTracker
+  m_TagString: NewsTracker
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &638376646
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 610020617}
+  m_GameObject: {fileID: 638376645}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
+  m_Script: {fileID: 11500000, guid: 4bdacb3c200cd384c88f1904710ecdd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
+  TruthTold: 0
+  LieTold: 0
+  SensationTold: 0
+--- !u!4 &638376647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638376645}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 471.83365, y: 271.29895, z: -74.68091}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &638376648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638376645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56edf4c024100344f87b7b9696cb97b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 638376645}
+--- !u!114 &638376649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638376645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65862c72f502c48469b525f0c91282c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &639476986
 GameObject:
   m_ObjectHideFlags: 0
@@ -3823,15 +3824,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.1
-  fullText: "Ripper Gone Feral Victim Jean Royal, mother of two has been recently
-    found, brutally killed on Princess Road in Manchester. She was found with many
-    blunt impacts to the back of her head that is just barely connected to the body.
-    While said body is also riddled with stabbed wounds. At first the police didn\u2019t
-    know who could be the killer. However, evidence found by the mutilated corpse
-    points towards The Yorkshire Ripper. The Ripper has done many killings before
-    however none as brutal as this! People are starting to believe that the killer
-    is becoming more feral and inhuman with each new kill. All workers of the night
-    should be afraid as this sadistic killer could come for you next! ?Test.?"
+  fullText: The killer used a hammer to kill his victims as a symbol that he aims
+    to rebuild society. This may explain why he targeted women, as he views women
+    as an obstacle to his perfect world. He was clearly misogynistic. There is also
+    evidence that the Yorkshire ripper buried the dead body, HOWEVER, evidence proves
+    he dug the body up again! Perhaps he was not, in fact, hiding the body, but rather
+    he was just storing the body underground for later use, perhaps he was actually
+    a necrophile. Finally, we discovered a five-pound note at the crime scene maybe
+    this was his calling card, letting us know he wishes to be referred to as the
+    five-pound killer rather than the Yorkshire ripper.
   textButton: {fileID: 548974909}
   otherTextButton: {fileID: 1719328463}
   thirdTextButton: {fileID: 1426632596}
@@ -4089,8 +4090,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 683822719}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 323.91293}
-  m_LocalScale: {x: 0.57908106, y: 0.3367238, z: 0.688125}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.6316266, y: 1.0140162, z: 1.5092549}
   m_Children:
   - {fileID: 999160632}
   m_Father: {fileID: 1620170006}
@@ -4098,7 +4099,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 812.12616, y: 474.14673}
+  m_AnchoredPosition: {x: 744, y: 450}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &683822721
@@ -4727,7 +4728,7 @@ RectTransform:
   m_GameObject: {fileID: 750928614}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.736759, y: 0.45787776, z: 0.6815022}
+  m_LocalScale: {x: 1.6316266, y: 1.0140162, z: 1.5092549}
   m_Children:
   - {fileID: 1728548}
   m_Father: {fileID: 772029428}
@@ -4735,7 +4736,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1330.8884, y: 699.3955}
+  m_AnchoredPosition: {x: 1330.2, y: 716.03}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &750928616
@@ -4862,7 +4863,6 @@ GameObject:
   - component: {fileID: 760451040}
   - component: {fileID: 760451039}
   - component: {fileID: 760451045}
-  - component: {fileID: 760451046}
   m_Layer: 0
   m_Name: Shovel
   m_TagString: Untagged
@@ -5056,20 +5056,6 @@ MonoBehaviour:
   EvidencePiece1: 0
   PlaceEvidenceHere1: {fileID: 760451037}
   ObjectThatHoldsEvidenceCounter: {fileID: 784656060}
---- !u!114 &760451046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 760451037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 7b3744ff6d63abe4fa8284878d755f9b, type: 3}
-  MouseOver: 0
 --- !u!1 &772029427
 GameObject:
   m_ObjectHideFlags: 0
@@ -5507,7 +5493,6 @@ GameObject:
   - component: {fileID: 869134652}
   - component: {fileID: 869134651}
   - component: {fileID: 869134650}
-  - component: {fileID: 869134654}
   m_Layer: 0
   m_Name: Sensationalise
   m_TagString: Untagged
@@ -5616,6 +5601,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 638376649}
+        m_TargetAssemblyTypeName: IncreaseNewsTracker, Assembly-CSharp
+        m_MethodName: OnSensationTold
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 869134650}
         m_TargetAssemblyTypeName: PublishPaperScript, Assembly-CSharp
         m_MethodName: WritingWasDone
@@ -5666,20 +5663,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 869134648}
   m_CullTransparentMesh: 1
---- !u!114 &869134654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 869134648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
 --- !u!4 &870608225 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2136496488158070867, guid: ffc8b9b919cd14ca4994c01c7b12c14d, type: 3}
@@ -5701,7 +5684,6 @@ GameObject:
   - component: {fileID: 871630140}
   - component: {fileID: 871630139}
   - component: {fileID: 871630145}
-  - component: {fileID: 871630146}
   m_Layer: 0
   m_Name: Hammer
   m_TagString: Untagged
@@ -5895,20 +5877,6 @@ MonoBehaviour:
   EvidencePiece1: 0
   PlaceEvidenceHere1: {fileID: 871630137}
   ObjectThatHoldsEvidenceCounter: {fileID: 784656060}
---- !u!114 &871630146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 871630137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
 --- !u!1 &874306387
 GameObject:
   m_ObjectHideFlags: 0
@@ -6082,7 +6050,6 @@ GameObject:
   - component: {fileID: 931055823}
   - component: {fileID: 931055822}
   - component: {fileID: 931055821}
-  - component: {fileID: 931055820}
   m_Layer: 5
   m_Name: SecondScene
   m_TagString: Untagged
@@ -6109,20 +6076,6 @@ RectTransform:
   m_AnchoredPosition: {x: -386.99988, y: 9.000051}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &931055820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931055818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 7b3744ff6d63abe4fa8284878d755f9b, type: 3}
-  MouseOver: 0
 --- !u!114 &931055821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6152,7 +6105,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 931055820}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: ChangeMouseOnMouseOver, Assembly-CSharp
           m_MethodName: OnMouseOver
           m_Mode: 1
@@ -6180,7 +6133,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 931055820}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: ChangeMouseOnMouseOver, Assembly-CSharp
           m_MethodName: OnMouseExit
           m_Mode: 1
@@ -6275,7 +6228,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 931055820}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeMouseOnMouseOver, Assembly-CSharp
         m_MethodName: OnMouseExit
         m_Mode: 1
@@ -6904,7 +6857,6 @@ GameObject:
   - component: {fileID: 994727136}
   - component: {fileID: 994727135}
   - component: {fileID: 994727134}
-  - component: {fileID: 994727139}
   m_Layer: 0
   m_Name: Lies Button
   m_TagString: Untagged
@@ -6993,6 +6945,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 0
+      - m_Target: {fileID: 638376649}
+        m_TargetAssemblyTypeName: IncreaseNewsTracker, Assembly-CSharp
+        m_MethodName: OnLieTold
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 994727134}
         m_TargetAssemblyTypeName: PublishPaperScript, Assembly-CSharp
         m_MethodName: WritingWasDone
@@ -7063,20 +7027,6 @@ RectTransform:
   m_AnchoredPosition: {x: -574, y: -70}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &994727139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994727133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
 --- !u!1 &999160631
 GameObject:
   m_ObjectHideFlags: 0
@@ -7394,7 +7344,7 @@ RectTransform:
   m_GameObject: {fileID: 1024943236}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.736759, y: 0.45787776, z: 0.6815022}
+  m_LocalScale: {x: 1.6316266, y: 1.0140162, z: 1.5092549}
   m_Children:
   - {fileID: 54454580}
   m_Father: {fileID: 772029428}
@@ -7402,7 +7352,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1332, y: 672}
+  m_AnchoredPosition: {x: 1332.7, y: 655.36}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1024943238
@@ -8150,7 +8100,6 @@ GameObject:
   - component: {fileID: 1103757590}
   - component: {fileID: 1103757589}
   - component: {fileID: 1103757588}
-  - component: {fileID: 1103757594}
   m_Layer: 0
   m_Name: BW Handkerchief
   m_TagString: Untagged
@@ -8165,13 +8114,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103757586}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.181591, y: 1.1996619, z: 315}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.098456085, w: 0.9951414}
+  m_LocalPosition: {x: -11.96, y: 1.86, z: 314.9999}
+  m_LocalScale: {x: 0.24313477, y: 0.24313477, z: 0.24313477}
   m_Children: []
   m_Father: {fileID: 772029428}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 11.301}
 --- !u!114 &1103757588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8318,20 +8267,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1103757594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103757586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
 --- !u!1 &1121126748
 GameObject:
   m_ObjectHideFlags: 0
@@ -8528,6 +8463,7 @@ MonoBehaviour:
   sceneButton: {fileID: 931055818}
   typeScene: {fileID: 1383576613}
   highlightButton: {fileID: 113897139}
+  typewriterAudio: {fileID: 728445578}
 --- !u!114 &1124172256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8649,7 +8585,6 @@ GameObject:
   - component: {fileID: 1167282479}
   - component: {fileID: 1167282481}
   - component: {fileID: 1167282482}
-  - component: {fileID: 1167282483}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -8699,6 +8634,7 @@ MonoBehaviour:
   sceneButton: {fileID: 280085754}
   typeScene: {fileID: 1365320648}
   highlightButton: {fileID: 113897139}
+  typewriterAudio: {fileID: 728445578}
 --- !u!114 &1167282482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8712,19 +8648,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newButton: {fileID: 931055818}
---- !u!114 &1167282483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1167282478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49de2437ece2476488a02cb8bdde63da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  newButton: {fileID: 140585334}
 --- !u!1 &1175119132
 GameObject:
   m_ObjectHideFlags: 0
@@ -9021,15 +8944,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.1
-  fullText: "Ripper Gone Feral Victim Jean Royal, mother of two has been recently
-    found, brutally killed on Princess Road in Manchester. She was found with many
-    blunt impacts to the back of her head that is just barely connected to the body.
-    While said body is also riddled with stabbed wounds. At first the police didn\u2019t
-    know who could be the killer. However, evidence found by the mutilated corpse
-    points towards The Yorkshire Ripper. The Ripper has done many killings before
-    however none as brutal as this! People are starting to believe that the killer
-    is becoming more feral and inhuman with each new kill. All workers of the night
-    should be afraid as this sadistic killer could come for you next! ?Test.?"
+  fullText: "Yorkshire Ripper, more like Yorkshire perver: we found several pairs
+    of socks in the Yorkshire Rippers car, which means\u2026 he was also a prolific
+    undergarment thief. The man who has left piles of bodies in his wake has also
+    stolen piles of socks. Perhaps that missing odd sock you\u2019ve spent months
+    looking for, was actually stolen by the Yorkshire perver. the murder weapon has
+    been confirmed to be a stone. We discovered blood on the stone we found in his
+    car that led us to this conclusion."
   textButton: {fileID: 869134648}
   otherTextButton: {fileID: 610020617}
   thirdTextButton: {fileID: 994727133}
@@ -9439,15 +9360,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.1
-  fullText: "Ripper Strikes in Manchester Jean Royal, mother of two has been found
-    dead on Princess Road in Manchester. At first the police investigation team believed
-    that this death was done by another killer. However, once they searched the dead
-    body the police found a 5-pound note believed to be from The Yorkshire Ripper,
-    in the victim\u2019s purse. This led the team to find out that Jean Royal was
-    doing prostitution work at night. The fact of Jean Royal was a prostitute and
-    the 5-pound note leading back to Bradford city in West Yorkshire means that the
-    most likely suspect of this brutal murder is the Yorkshire Ripper. A warning
-    to all workers of the night should be careful of this sudden appearance. ?"
+  fullText: "On October 1st 1977, Peter Sutcliff, commonly known as the Yorkshire
+    Ripper, would murder the Manchester prostitute Jean Jordan, also known as Jean
+    Royle or \u201CScotch Jean\u201D but the story wouldn\u2019t end there. That
+    night, Peter Sutcliff, after being led to an old allotment area, grabbed a nearby
+    hammer and proceeded to bash Jean over the head with it. After hiding the body,
+    which lay undiscovered for over a week, Peter returned to the scene to dig up
+    the body and search for an incriminating \xA35 note, where after not finding
+    it, decided to take out his anger on the body of the poor victim. This turned
+    the murder of Jean Jordan into the most brutal attack of the whole case."
   textButton: {fileID: 1719328463}
   otherTextButton: {fileID: 1426632596}
   thirdTextButton: {fileID: 548974909}
@@ -10397,8 +10318,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1410999575}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 323.91293}
-  m_LocalScale: {x: 0.57908106, y: 0.3367238, z: 0.688125}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.6316266, y: 1.0140162, z: 1.5092549}
   m_Children:
   - {fileID: 1609881958}
   m_Father: {fileID: 1620170006}
@@ -10406,7 +10327,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 813, y: 454}
+  m_AnchoredPosition: {x: 742, y: 517}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1410999577
@@ -10530,7 +10451,6 @@ GameObject:
   - component: {fileID: 1422803197}
   - component: {fileID: 1422803196}
   - component: {fileID: 1422803195}
-  - component: {fileID: 1422803200}
   m_Layer: 0
   m_Name: Lies Button
   m_TagString: Untagged
@@ -10619,6 +10539,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 0
+      - m_Target: {fileID: 638376649}
+        m_TargetAssemblyTypeName: IncreaseNewsTracker, Assembly-CSharp
+        m_MethodName: OnLieTold
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1422803195}
         m_TargetAssemblyTypeName: PublishPaperScript, Assembly-CSharp
         m_MethodName: WritingWasDone
@@ -10689,20 +10621,6 @@ RectTransform:
   m_AnchoredPosition: {x: -574, y: -70}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1422803200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422803194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
 --- !u!1 &1426632596
 GameObject:
   m_ObjectHideFlags: 0
@@ -10716,7 +10634,6 @@ GameObject:
   - component: {fileID: 1426632598}
   - component: {fileID: 1426632597}
   - component: {fileID: 1426632601}
-  - component: {fileID: 1426632602}
   m_Layer: 0
   m_Name: Lies Button
   m_TagString: Untagged
@@ -10804,6 +10721,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 638376649}
+        m_TargetAssemblyTypeName: IncreaseNewsTracker, Assembly-CSharp
+        m_MethodName: OnLieTold
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1426632598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10875,20 +10804,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PressToGoEndScene: {fileID: 733568281}
---- !u!114 &1426632602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1426632596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
 --- !u!1 &1427073769
 GameObject:
   m_ObjectHideFlags: 0
@@ -11132,11 +11047,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2136496488158070867, guid: ffc8b9b919cd14ca4994c01c7b12c14d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.095186
+      value: 1.5230751
       objectReference: {fileID: 0}
     - target: {fileID: 2136496488158070867, guid: ffc8b9b919cd14ca4994c01c7b12c14d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.929108
+      value: 1.2921106
       objectReference: {fileID: 0}
     - target: {fileID: 2136496488158070867, guid: ffc8b9b919cd14ca4994c01c7b12c14d, type: 3}
       propertyPath: m_LocalScale.z
@@ -11616,15 +11531,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.1
-  fullText: "New Killer at Large Jean Royal, mother of two has been recently found,
-    brutally murdered on Princess Road in Manchester. At first it was believed that
-    The Yorkshire Ripper was the cause of her death, however since no evidence is
-    pointing towards them and the Ripper isn\u2019t known for brutal killings like
-    this one. Police investigators have deduced that instead a new unrelated killer
-    has caused this brutal scene to happen. The police have dubbed this new killer
-    \u201CThe Manchester Maniac\u201D. Police have also stated the civilians should
-    be careful while out at night since they never know who or when the Manchester
-    Maniac will strike! ?"
+  fullText: "Peter Sutcliff\u2019s first victim was a prostitute who remains anonymous.
+    She remains anonymous because she neglected to press charges against the man
+    who would later become the Yorkshire Ripper and murder countless women. This
+    woman could have saved countless lives but didn\u2019t, all because she \u201Cdidn\u2019t
+    want anything to do with it.\u201D Outrageous."
   textButton: {fileID: 994727133}
   otherTextButton: {fileID: 610020617}
   thirdTextButton: {fileID: 869134648}
@@ -12163,7 +12074,6 @@ GameObject:
   - component: {fileID: 1719328465}
   - component: {fileID: 1719328464}
   - component: {fileID: 1719328468}
-  - component: {fileID: 1719328469}
   m_Layer: 0
   m_Name: Truth Button
   m_TagString: Untagged
@@ -12230,6 +12140,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1719328468}
         m_TargetAssemblyTypeName: PublishPaperScript, Assembly-CSharp
         m_MethodName: WritingWasDone
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 638376649}
+        m_TargetAssemblyTypeName: IncreaseNewsTracker, Assembly-CSharp
+        m_MethodName: OnTruthTold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12310,20 +12232,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PressToGoEndScene: {fileID: 733568281}
---- !u!114 &1719328469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1719328463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
 --- !u!1 &1765003464
 GameObject:
   m_ObjectHideFlags: 0
@@ -12356,15 +12264,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.1
-  fullText: "Ripper Gone Feral Victim Jean Royal, mother of two has been recently
-    found, brutally killed on Princess Road in Manchester. She was found with many
-    blunt impacts to the back of her head that is just barely connected to the body.
-    While said body is also riddled with stabbed wounds. At first the police didn\u2019t
-    know who could be the killer. However, evidence found by the mutilated corpse
-    points towards The Yorkshire Ripper. The Ripper has done many killings before
-    however none as brutal as this! People are starting to believe that the killer
-    is becoming more feral and inhuman with each new kill. All workers of the night
-    should be afraid as this sadistic killer could come for you next! ?Test.?"
+  fullText: A white handkerchief was discovered at the scene of the crime, a common
+    signature among gentleman thieves. Perhaps The Yorkshire Ripper truly did believe
+    he was some kind of righteous killer. The victim was struck with a piece of wood,
+    something that the killer must have used to attempt to shift the blame away from
+    himself and continue to fool police into believing he only attacked prostitutes
+    when his true goals were far grander. Incidentally, a wooden bead bracelet was
+    discovered at the crime scene, perhaps this was the murder weapon used.
   textButton: {fileID: 1860294938}
   otherTextButton: {fileID: 581459670}
   thirdTextButton: {fileID: 1422803194}
@@ -12681,7 +12587,6 @@ GameObject:
   - component: {fileID: 1860294942}
   - component: {fileID: 1860294941}
   - component: {fileID: 1860294940}
-  - component: {fileID: 1860294944}
   m_Layer: 0
   m_Name: Sensationalise
   m_TagString: Untagged
@@ -12790,6 +12695,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 638376649}
+        m_TargetAssemblyTypeName: IncreaseNewsTracker, Assembly-CSharp
+        m_MethodName: OnSensationTold
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1860294940}
         m_TargetAssemblyTypeName: PublishPaperScript, Assembly-CSharp
         m_MethodName: WritingWasDone
@@ -12840,20 +12757,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860294938}
   m_CullTransparentMesh: 1
---- !u!114 &1860294944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860294938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
 --- !u!1 &1865901351
 GameObject:
   m_ObjectHideFlags: 0
@@ -13311,15 +13214,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.1
-  fullText: "Ripper Strikes in Manchester Jean Royal, mother of two has been found
-    dead on Princess Road in Manchester. At first the police investigation team believed
-    that this death was done by another killer. However, once they searched the dead
-    body the police found a 5-pound note believed to be from The Yorkshire Ripper,
-    in the victim\u2019s purse. This led the team to find out that Jean Royal was
-    doing prostitution work at night. The fact of Jean Royal was a prostitute and
-    the 5-pound note leading back to Bradford city in West Yorkshire means that the
-    most likely suspect of this brutal murder is the Yorkshire Ripper. A warning
-    to all workers of the night should be careful of this sudden appearance. ?"
+  fullText: "Peter Sutcliff attacked a 14-Year-old girl by the name of Tracy Brown
+    in Silsden, who lost a bracelet at the crime scene, but luckily managed to keep
+    her life. This assault was infamous for being the one where peter Sutcliff attacked
+    a woman who was not in fact a prostitute. This is also a fact that managed to
+    mislead the investigators who neglected to believe that this was Sutcliff\u2019s
+    doing, despite the victim and several eyewitness testimonies providing corroborating
+    photofits that matched Sutcliff\u2019s appearance. Additionally, a white handkerchief
+    was left being that was linked to Sutcliff\u2019s hay fever, further, albeit
+    weak, evidence towards Sutcliff\u2019s involvement. Tracy\u2019s testimony, if
+    the police had listened, could have helped to convict Peter sooner and prevent
+    many future tragedies."
   textButton: {fileID: 581459670}
   otherTextButton: {fileID: 1422803194}
   thirdTextButton: {fileID: 1860294938}
@@ -13418,15 +13323,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.1
-  fullText: "New Killer at Large Jean Royal, mother of two has been recently found,
-    brutally murdered on Princess Road in Manchester. At first it was believed that
-    The Yorkshire Ripper was the cause of her death, however since no evidence is
-    pointing towards them and the Ripper isn\u2019t known for brutal killings like
-    this one. Police investigators have deduced that instead a new unrelated killer
-    has caused this brutal scene to happen. The police have dubbed this new killer
-    \u201CThe Manchester Maniac\u201D. Police have also stated the civilians should
-    be careful while out at night since they never know who or when the Manchester
-    Maniac will strike! ?"
+  fullText: "The Yorkshire Ripper, on August 27th assaulted a girl of age 14. This
+    doesn\u2019t seem to line up with the rest of the rippers attacks, where he attacked
+    only prostitutes, or does it? We have concluded that the Rippers true motives
+    in this attack were to expose the exploitative nature and lax security of the
+    locale\u2019s nightclubs. This child must have truly been one of many minors
+    that manage to slip through the cracks and gain access to jobs in age restricted
+    industries. Alas, the police overlooked this and did not tie this case to the
+    Yorkshire Ripper or maybe they were covering it up, perhaps the corruption runs
+    deeper than we feared."
   textButton: {fileID: 1422803194}
   otherTextButton: {fileID: 581459670}
   thirdTextButton: {fileID: 1860294938}

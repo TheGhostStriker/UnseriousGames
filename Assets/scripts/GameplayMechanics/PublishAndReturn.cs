@@ -9,6 +9,7 @@ public class PublishAndReturn : MonoBehaviour
     public GameObject sceneButton;
     public GameObject typeScene;
     public GameObject highlightButton;
+    public AudioSource typewriterAudio;
     
 
     public void WhenButtonClicked()
@@ -17,5 +18,6 @@ public class PublishAndReturn : MonoBehaviour
         typeScene.SetActive(false);
         Destroy(highlightButton);
         sceneButton.GetComponent<Button>().enabled = false;
+        typewriterAudio.Stop();
     }
 }

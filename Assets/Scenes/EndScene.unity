@@ -186,7 +186,7 @@ RectTransform:
   m_Children:
   - {fileID: 807758576}
   m_Father: {fileID: 778049744}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -287,6 +287,89 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354753939}
   m_CullTransparentMesh: 1
+--- !u!1 &361090447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 361090450}
+  - component: {fileID: 361090449}
+  - component: {fileID: 361090448}
+  m_Layer: 5
+  m_Name: Lie Ending
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &361090448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361090447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 7e32dda8d7cb75d48b61853817d8ce72, type: 3}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: "Your lies to the public have been noticed. Perhaps you stumbled across
+    some of the truths about the crimes.\n\nHowever, the more worrying truth is that
+    you barely did the bare minimum to keep your job. \n\nThrough these actions you
+    kept your job but lost your credibility and perhaps even got more people hurt
+    in the long run."
+--- !u!222 &361090449
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361090447}
+  m_CullTransparentMesh: 1
+--- !u!224 &361090450
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361090447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4445, y: 1.4445, z: 1.4445}
+  m_Children: []
+  m_Father: {fileID: 778049744}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 135.312, y: 96}
+  m_SizeDelta: {x: 188.123, y: 59.402}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &470575410
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,6 +436,90 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &583874847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 583874850}
+  - component: {fileID: 583874849}
+  - component: {fileID: 583874848}
+  m_Layer: 5
+  m_Name: Sensationalised ENding
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &583874848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583874847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 7e32dda8d7cb75d48b61853817d8ce72, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: "Your job was to give the public the facts. In a way you have done exactly
+    that.\n\nHowever, while you have told the truth you have twisted it to your own
+    ends. Your boss has praised you for your excellent work. But, that comes at a
+    price.\n\nWhile you have told a story that people will latch onto, you have now
+    immortalised the serial killer. \n\nYou have made him an icon rahter than someone
+    who has committed terrible crimes."
+--- !u!222 &583874849
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583874847}
+  m_CullTransparentMesh: 1
+--- !u!224 &583874850
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583874847}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4445, y: 1.4445, z: 1.4445}
+  m_Children: []
+  m_Father: {fileID: 778049744}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 135.312, y: 96}
+  m_SizeDelta: {x: 188.123, y: 59.402}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &616451285
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,7 +760,7 @@ RectTransform:
   m_LocalScale: {x: 1.4445, y: 1.4445, z: 1.4445}
   m_Children: []
   m_Father: {fileID: 778049744}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -658,6 +825,7 @@ GameObject:
   - component: {fileID: 778049743}
   - component: {fileID: 778049742}
   - component: {fileID: 778049741}
+  - component: {fileID: 778049745}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -740,6 +908,8 @@ RectTransform:
   - {fileID: 1364969815}
   - {fileID: 1284420546}
   - {fileID: 1209168656}
+  - {fileID: 361090450}
+  - {fileID: 583874850}
   - {fileID: 667704636}
   - {fileID: 2097687874}
   - {fileID: 354753940}
@@ -751,6 +921,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &778049745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778049740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744fb98a46d7cfd4499bbd5570f04f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TruthEnding: {fileID: 1209168655}
+  LieEnding: {fileID: 361090447}
+  SensationalEnding: {fileID: 583874847}
 --- !u!1 &807758575
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,12 +1070,12 @@ GameObject:
   - component: {fileID: 1209168658}
   - component: {fileID: 1209168657}
   m_Layer: 5
-  m_Name: Story
+  m_Name: Truth Ending
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1209168656
 RectTransform:
   m_ObjectHideFlags: 0
@@ -943,14 +1128,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Jean Royal, mother of two has been recently found, brutally murdered on
-    Princess Road in Manchester. At first it was believed that The Yorkshire Ripper
-    was the cause of her death, however since no evidence is pointing towards them
-    and the Ripper isn\u2019t known for brutal killings like this one. \nPolice investigators
-    have deduced that instead a new unrelated killer has caused this brutal scene
-    to happen. \nThe police have dubbed this new killer \u201CThe Manchester Maniac\u201D.
-    \nPolice have also stated the civilians should be careful while out at night
-    since they never know who or when the Manchester Maniac will strike!"
+  m_Text: 'The labor of your efforts have paid off! The articles you''ve written
+    each have as much truth as you could provide within the time limit.
+
+
+    With
+    this you can rest easy knowing that you have informed the public of the current
+    dangers roaming the night.'
 --- !u!222 &1209168658
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1143,7 +1327,7 @@ RectTransform:
   m_LocalScale: {x: 0.99034727, y: 0.99034727, z: 0.99034727}
   m_Children: []
   m_Father: {fileID: 778049744}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
