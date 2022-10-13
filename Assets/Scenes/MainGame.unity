@@ -382,7 +382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickableObject: {fileID: 42457718}
   sceneObject: {fileID: 772029427}
-  canvasObject: {fileID: 0}
+  canvasObject: {fileID: 987811986}
   evidenceAudio: {fileID: 934161743}
 --- !u!212 &42457725
 SpriteRenderer:
@@ -2480,7 +2480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &470673072
 RectTransform:
   m_ObjectHideFlags: 0
