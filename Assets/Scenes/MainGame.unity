@@ -2597,7 +2597,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 7e32dda8d7cb75d48b61853817d8ce72, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -3293,7 +3293,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 7e32dda8d7cb75d48b61853817d8ce72, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -3923,7 +3923,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 7e32dda8d7cb75d48b61853817d8ce72, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -4447,7 +4447,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -4541,7 +4541,6 @@ GameObject:
   - component: {fileID: 733568284}
   - component: {fileID: 733568283}
   - component: {fileID: 733568282}
-  - component: {fileID: 733568286}
   m_Layer: 0
   m_Name: PublishPaper
   m_TagString: Untagged
@@ -4675,20 +4674,6 @@ RectTransform:
   m_AnchoredPosition: {x: -574, y: 136}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &733568286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733568281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
 --- !u!1 &750928614
 GameObject:
   m_ObjectHideFlags: 0
@@ -7674,7 +7659,6 @@ GameObject:
   - component: {fileID: 1085949785}
   - component: {fileID: 1085949784}
   - component: {fileID: 1085949783}
-  - component: {fileID: 1085949787}
   m_Layer: 0
   m_Name: PublishPaper
   m_TagString: Untagged
@@ -7737,7 +7721,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: EndScene
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
       - m_Target: {fileID: 1167282479}
         m_TargetAssemblyTypeName: LoadSceneOnClick, Assembly-CSharp
         m_MethodName: LoadScene
@@ -7808,20 +7792,6 @@ RectTransform:
   m_AnchoredPosition: {x: -574, y: 136}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1085949787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1085949782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cebb0d8ade2c824590c109e6481a5f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseOverTexture: {fileID: 2800000, guid: 00e459ed5bf9e4b418f4381d3e3e2489, type: 3}
-  MouseOver: 0
 --- !u!1 &1089883366
 GameObject:
   m_ObjectHideFlags: 0
@@ -8972,7 +8942,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 7e32dda8d7cb75d48b61853817d8ce72, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -9390,7 +9360,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 7e32dda8d7cb75d48b61853817d8ce72, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -11575,7 +11545,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 7e32dda8d7cb75d48b61853817d8ce72, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -12395,7 +12365,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 7e32dda8d7cb75d48b61853817d8ce72, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -13337,7 +13307,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 7e32dda8d7cb75d48b61853817d8ce72, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -13444,7 +13414,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 7e32dda8d7cb75d48b61853817d8ce72, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
